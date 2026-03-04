@@ -1,3 +1,15 @@
+# ROS2 Robot Arm Project (Fruit Sorting Edition)
+
+> **致谢与声明 / Acknowledgement**
+>
+> 本项目基于 **MindSpore Lab** 的开源项目 [ros2_robot_arm](https://github.com/mindspore-lab/orange-pi-mindspore/tree/master/Offline/inference/ros2_robot_arm) 进行复现与改进。
+>
+> **主要改动点 / Modifications**:
+>
+> 1.  **识别目标**: 将原有的红绿蓝方块识别，修改为识别带有 **葡萄 🍇、香蕉 🍌、火龙果 🐉** 图片的方块。
+> 2.  **硬件适配**: 修改了 URDF 模型以适配特定的机械臂结构，并调整了底层通信协议。
+> 3.  **环境部署**: 针对 Orange Pi AI Pro 开发板及 MindSpore Lite 推理引擎进行了适配与测试。
+
 [toc]
 
 ## 开发测试
